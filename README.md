@@ -1,0 +1,2 @@
+# templatesvc
+Variable Templating Service
