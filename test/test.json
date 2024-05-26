@@ -1,0 +1,17 @@
+{
+    "config" : [
+        {
+            "trigger" : ["/sys/test/a", "/sys/test/b"],
+            "template" : "./test/test.tmpl",
+            "append" : true,
+            "keep_open" : true,
+            "target" : "/tmp/test.txt"
+        },
+        {
+            "type" : "mq",
+            "trigger" : ["/sys/test/a", "/sys/test/b"],
+            "template" : "./test/test.tmpl",
+            "target" : "/sfaq"
+        }
+    ]
+}
